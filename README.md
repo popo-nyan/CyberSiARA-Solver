@@ -1,6 +1,6 @@
 CyberSiARA Captcha Solver
 
-https://www.cybersiara.com/spam-and-abuse
+https://www.cybersiara.com/spam-and-abuse  
 https://2captcha.com/p/cybersiara-captcha-solver
 
 ```bash

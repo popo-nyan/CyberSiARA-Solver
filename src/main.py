@@ -142,7 +142,6 @@ class CyberSolver:
             "DeviceHeight": self._browser_data["screenHeight"],
             "DeviceWidth": self._browser_data["screenWidth"],
         }
-        pprint(data)
         response = self.__session.post(
             "https://embed.mycybersiara.com/api/CyberSiara/GetCyberSiara",
             headers=self.headers,

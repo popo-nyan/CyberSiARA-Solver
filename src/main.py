@@ -133,7 +133,7 @@ class CyberSolver:
             "RequestUrl": self.request_url,
             "BrowserIdentity": self.browser_identity,
             "PluginNo": self._browser_data["pluginsLength"],
-            "VisiterId": self._generate_visitor_id(),
+            "VisiterId": self.visitor_id,
             "LanguageId": 1,
             "RequestID": "0",
             "LangChange": "0",
@@ -142,6 +142,7 @@ class CyberSolver:
             "DeviceHeight": self._browser_data["screenHeight"],
             "DeviceWidth": self._browser_data["screenWidth"],
         }
+        pprint(data)
         response = self.__session.post(
             "https://embed.mycybersiara.com/api/CyberSiara/GetCyberSiara",
             headers=self.headers,

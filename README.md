@@ -11,4 +11,3 @@ python src/main.py
 # Contact
 
 - Email [kounomiya@tuta.io](mailto:kounomiya@tuta.io)
-- Matrix: [@kounomiya:hackliberty.org](https://matrix.to/#/@kounomiya:hackliberty.org)
